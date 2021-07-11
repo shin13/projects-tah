@@ -8,8 +8,8 @@ driver = webdriver.Chrome(chrome_path)
 
 driver.get('http://59.120.129.104/taerm/index.jsp')
 
-driver.find_element_by_name("uid").send_keys('152551')
-driver.find_element_by_name("pwd").send_keys('Ab!@34567')
+driver.find_element_by_name("uid").send_keys('YOUR-WORKER-ID')
+driver.find_element_by_name("pwd").send_keys('YOUR-PASSWORD')
 
 #driver.switch_to_window(window_after)
 driver.find_element_by_xpath('/html/body/table/tbody/tr/td/form/table/tbody/tr/td[1]/table/tbody/tr[3]/td[2]/a/img').click()
