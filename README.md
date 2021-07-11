@@ -4,9 +4,9 @@
 
 ## :dart: Goal
 
-把無聊的點擊工作讓電腦做，將每天例行的點閱期刊自動化。
+把無聊的點擊工作讓電腦做，將每天例行的點閱期刊自動化。:sunglasses:
 
-## Requirements
+## :white_check_mark: Requirements
 
 - Python 3.X
 - [chromedriver](https://chromedriver.chromium.org/)
